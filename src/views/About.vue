@@ -1,16 +1,16 @@
 <template>
   <Card class="p-shadow-14">
     <template #content>
-      <h1>This is gotoAndPlay internship task.</h1>
+      <h1>gotoAndPlay internship task</h1>
       <h2>
-        Karl Rapur <br />
+        <br />Karl Rapur <br />
         karl.rapur@ut.ee
       </h2>
     </template>
   </Card>
 </template>
 
-<script>
+<script lang="ts">
 import Card from "primevue/card";
 export default {
   components: {
@@ -19,4 +19,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+* {
+  color: #f5f5f5;
+}
+.p-card {
+  background-color: #eb386a;
+  border-radius: 25px;
+}
+</style>
