@@ -7,9 +7,9 @@ In the background, you can see the fireworks light up randomly or by clicking.
 In the foreground, the birthday card appears after 10 seconds.
 
 ## Tested compatability
-Google Chrome - Version 90.0.4430.85 (Official Build) (64-bit)
-Firefox Browser - 88.0 (64-bit)
-Microsoft Edge - Version 90.0.818.46 (Official build) (64-bit)
+Google Chrome - Version 90.0.4430.85 (Official Build) (64-bit) <br>
+Firefox Browser - 88.0 (64-bit)<br>
+Microsoft Edge - Version 90.0.818.46 (Official build) (64-bit)<br>
 Brave Browser - Version 1.23.73 Chromium: 90.0.4430.85 (Official Build) (64-bit)
 
 
