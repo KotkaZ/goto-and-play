@@ -6,6 +6,14 @@ This web application is purely made for gotoAndPlay internship program.
 In the background, you can see the fireworks light up randomly or by clicking.
 In the foreground, the birthday card appears after 10 seconds.
 
+## Tested compatability
+Google Chrome - Version 90.0.4430.85 (Official Build) (64-bit) <br>
+Firefox Browser - 88.0 (64-bit)<br>
+Microsoft Edge - Version 90.0.818.46 (Official build) (64-bit)<br>
+Brave Browser - Version 1.23.73 Chromium: 90.0.4430.85 (Official Build) (64-bit)
+
+
+
 ## :exclamation::exclamation::exclamation: Docker & Deployment
 
 This project is very easy to install and deploy with Docker containers.
@@ -19,6 +27,13 @@ docker-compose up
 This will take a couple of minutes on the initial start because Docker has to build images.
 Once up, servers can be accessed on previously defined ports.
 You can change port mappings in `docker-compose.yml`.
+
+Another way to test out the application is via serving it. This is meant for development purposes.
+
+```sh
+npm install
+npm run serve
+```
 
 By default, you can access the website [http://localhost:8080/](http://localhost:8080/)
 
