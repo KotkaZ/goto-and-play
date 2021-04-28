@@ -3,8 +3,11 @@
     <router-link to="/">Card</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <div class="container p-grid p-jc-center p-ai-center vertical-container">
+  <div
+    class="container p-grid p-jc-center p-ai-center vertical-container p-nogutter"
+  >
     <Fireworks id="fireworks" />
+    <img id="silhouette" src="@/assets/citysilhouette.jpg" alt="" />
     <router-view class="p-col-4 fader" />
   </div>
 </template>
@@ -55,6 +58,13 @@ body {
 
 #fireworks {
   position: absolute;
+  z-index: -10;
+}
+
+#silhouette {
+  position: absolute;
+  width: 100%;
+  opacity: 0.1;
   z-index: -10;
 }
 
